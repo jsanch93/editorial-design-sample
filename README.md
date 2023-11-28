@@ -1,5 +1,8 @@
-# DESN 368 Web Design 1 Starter Template
+# Coffee editorial design
 
-> **NOTE:** This is a work in progress.
+> Coffee drives Joey.
 
-DIY Template, starter, boilerplate, prototype, etc. for future Web Design projects. 
+Coffee is cool
+
+# Citations
+
