@@ -63,6 +63,12 @@ p {
   font-family: 'FamiljenGrotesk-SemiBoldItalic';
 }
 
+a {
+  font-size: 2.5em;
+  color: antiquewhite;
+  font-family: 'FamiljenGrotesk-SemiBoldItalic';
+}
+
 .funny {
   font-size: x-small;
 }
