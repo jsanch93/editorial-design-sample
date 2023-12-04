@@ -1,3 +1,6 @@
+@import "https://unpkg.com/open-props";
+@import url('familjen-grotesk.css');
+
 /* Setup Scrolling */
 html,
 body {
@@ -20,43 +23,90 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   position: relative;
   box-sizing: border-box;
 
   padding: 3em;
 }
 
+h1 {
+  font-family: 'FamiljenGrotesk-BoldItalic';
+  font-size: 2em;
+  font-weight: 400; 
+  margin: 0;  
+  background-color: blanchedalmond;
+  padding: .25em;
+  border-radius: var(--border-size-4);
+  opacity: .7;
+}
+
+p {
+  font-family: 'FamiljenGrotesk-Regular';
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  color: #27B127;
+  background-color: black; 
+  opacity: .7;
+  border-radius: var(--border-size-5);
+  padding: 1.5em;
+}
+
+.monster {
+  text-decoration: line-through;
+}
+
+.sub {
+  font-size: 2.5em;
+  color: antiquewhite;
+  font-family: 'FamiljenGrotesk-SemiBoldItalic';
+}
+
+.funny {
+  font-size: x-small;
+}
+
+/* Container for Background Images  */
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .one {
-  background: #fff;
+  background-image: url("https://picsum.photos/200/300");
 }
 
 .two {
-  background: url(https://images.unsplash.com/photo-1500353391678-d7b57979d6d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExOTk0ODF8&ixlib=rb-4.0.3&q=80&w=400) no-repeat;
+  background-image: url("https://picsum.photos/200/300");
 }
 
 .three {
-  background: #bdc3c7;
+  background-image: url("https://picsum.photos/200/300");
+
 }
 
 .four {
-  background: #7b7d7d;
+  background-image: url("https://picsum.photos/200/300");
 }
 
 .five {
-  background: #333;
-}
-
-.one h1 {
-  transform: rotate(90deg);
-  opacity: 0;
-}
-
-.three p {
-  letter-spacing: 100px;
+  background-image: url("https://picsum.photos/200/300");
 }
 
 .six {
-/*   transform: translateX(-500px) */
-  translateX: -500px
+  background-image: url("https://picsum.photos/200/300");
 }
+
+.seven {
+  background-image: url("https://picsum.photos/1600/800?random=7");
+}
+
+
