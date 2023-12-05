@@ -77,13 +77,15 @@ a {
 
 .brewing {  
   font-size: 1.5em;
-  background-color: blue;
+  background-color: #F2C641;
+  color: #4D4D4D;
+  padding: .5em;
 }
 
 .brew {
   text-align: center;
-  background-color: violet;
-  color: black;
+  background-color: #F2C641;
+  color: #4D4D4D;
 }
 
 
@@ -133,5 +135,13 @@ a {
 
 .copper {
   background-image: url(copper.jpg);
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
