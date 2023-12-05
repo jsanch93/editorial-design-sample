@@ -52,12 +52,12 @@ p {
   padding: 1em;
 }
 
-img {
-  width: 200px;
-  height: 300px;
-  border-radius: var(--border-size-3);
-  box-shadow: var(--shadow-size-1);
-}
+  img {
+    position: relative;
+    top: 10px;
+    border-radius: var(--border-size-3);
+  }
+
 
 .monster {
   text-decoration: line-through;
