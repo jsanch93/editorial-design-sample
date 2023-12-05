@@ -49,7 +49,14 @@ p {
   background-color: black; 
   opacity: .7;
   border-radius: var(--border-size-5);
-  padding: 1.5em;
+  padding: 1em;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: var(--border-size-3);
+  box-shadow: var(--shadow-size-1);
 }
 
 .monster {
@@ -135,6 +142,19 @@ a {
 
 .copper {
   background-image: url(copper.jpg);
+}
+
+.lauter {
+  background-image: url(lauter.jpeg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #myVideo {
