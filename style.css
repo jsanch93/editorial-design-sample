@@ -33,7 +33,6 @@ h1 {
   font-family: 'FamiljenGrotesk-BoldItalic';
   font-size: 2em;
   font-weight: 400; 
-  margin: 0;  
   background-color: blanchedalmond;
   padding: .25em;
   border-radius: var(--border-size-4);
@@ -73,6 +72,23 @@ a {
   font-size: x-small;
 }
 
+/* brewing.html */
+
+
+.brewing {  
+  font-size: 1.5em;
+  background-color: blue;
+}
+
+.brew {
+  text-align: center;
+  background-color: violet;
+  color: black;
+}
+
+
+
+
 /* Container for Background Images  */
 .bg {
   position: absolute;
@@ -96,7 +112,7 @@ a {
 
 .three {
   background-image: url("https://picsum.photos/200/300");
-
+  
 }
 
 .four {
@@ -115,4 +131,7 @@ a {
   background-image: url("https://picsum.photos/1600/800?random=7");
 }
 
+.copper {
+  background-image: url(copper.jpg);
+}
 
